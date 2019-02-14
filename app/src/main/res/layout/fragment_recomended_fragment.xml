@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wlpr"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".recomended_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.Toolbar
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/toobarRecommended"
+        android:minHeight="?attr/actionBarSize"
+        android:background="#4CAF50"
+        app:titleTextColor="#fff"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="2"
+                android:src="@drawable/compas"
+                app:civ_border_color="#d9c6c6"
+                app:civ_border_width="15dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contentklye"
+                android:textStyle="normal"
+                android:layout_weight="2"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textSize="15dp"
+                />
+            <!-- <at.markushi.ui.CircleButton
+                 android:layout_width="64dip"
+                 android:layout_height="64dip"
+                 android:src="@drawable/ic_action_tick"
+                 app:cb_color="#99CC00"
+                 app:cb_pressedRingWidth="8dip" />
+         -->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get Recommendation"
+                android:textSize="20dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="2"
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_button"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

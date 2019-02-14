@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MyCources">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v7.widget.Toolbar
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/toobarMyCource"
+        android:minHeight="?attr/actionBarSize"
+        android:background="#4CAF50"
+        app:titleTextColor="#fff"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#000"
+       android:orientation="horizontal">
+
+       <de.hdodenhof.circleimageview.CircleImageView
+           xmlns:app="http://schemas.android.com/apk/res-auto"
+           android:id="@+id/profile_image"
+           android:layout_width="40dp"
+           android:layout_height="40dp"
+           android:layout_gravity="center_vertical"
+           android:src="@drawable/hassan"
+           android:layout_margin="5dp"
+           app:civ_border_width="2dp"
+           app:civ_border_color="#FF000000"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Hassan Malik"
+           android:textSize="17dp"
+           android:layout_weight="4"
+           android:layout_marginLeft="20dp"
+           android:layout_gravity="center_vertical"
+           android:textColor="#fff"
+           android:layout_margin="10dp"/>
+       <ImageView
+           android:layout_width="35dp"
+           android:layout_height="60dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginLeft="80dp"
+           android:layout_weight="0"
+           android:layout_gravity="center_vertical"
+           android:src="@drawable/level"/>
+       <ImageView
+           android:layout_width="35dp"
+           android:layout_height="35dp"
+           android:layout_gravity="center_vertical"
+           android:layout_weight="1"
+           android:layout_marginLeft="5dp"
+           android:src="@drawable/mobile"/>
+   </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        android:background="#fff"
+        app:tabSelectedTextColor="#4CAF50"
+        app:tabIndicatorColor="#4CAF50"
+        app:tabIndicatorHeight="1dp"
+        android:id="@+id/tablyoutidMyCourcewali"/>
+</LinearLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewpageridMyCourcwali"/>
+</LinearLayout>

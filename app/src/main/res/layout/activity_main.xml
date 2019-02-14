@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bbg"
+    tools:context=".MainActivity">
+
+    //
+
+
+
+
+    <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+        android:id="@+id/ssimplePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        tools:ignore="HardcodedText"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+                    android:id="@+id/simplePassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    tools:ignore="HardcodedText"/>
+
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+
+    <!--    <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:id="@+id/simplePassword"
+            android:hint="Password"
+            />-->
+
+
+    //
+    <Button
+        android:id="@+id/signUpandSignInbtn"
+        android:text="SignUp and SignIn"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btndb"
+        android:text="dummy"
+        android:textAllCaps="false"
+        android:layout_below="@id/signUpandSignInbtn"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/addyouridBtn"
+        android:text="add your id"
+        android:textAllCaps="false"
+        android:layout_below="@id/signUpandSignInbtn"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/confirmyourdetailBtn"
+        android:text="confirm your detial"
+        android:textAllCaps="false"
+        android:layout_below="@id/addyouridBtn"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

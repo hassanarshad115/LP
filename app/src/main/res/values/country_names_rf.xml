@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="coutnry_array">
+        <item>Pakistan</item>
+        <item>United State</item>
+        <item>India</item>
+        <item>China</item>
+        <item>Dubai</item>
+        <item>Australia</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">LP</string>
+    <string name="title_activity_sign_upand_sign_in">SignUpandSignIn</string>
+    <string name="title_SignUp">Signup</string>
+    <string name="title_SignIn">Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_my_cources">MyCources</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="title_activity_my_cources_tab">MyCourcesTab</string>
+    <string name="contentklye">Hi my name is Hassan.I am from bahawalnagar.\n I am Android Developer in Lahore.</string>
+    <string name="artsandhumanities">Arts &amp; Humanities</string>
+
+</resources>
